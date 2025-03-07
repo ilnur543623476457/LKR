@@ -1,0 +1,64 @@
+.pole_signIn{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.txt_pole_signIn{
+    position: relative;
+    font-size: 24px;
+    color: var(--color_white);
+    top: 90px;
+    left: 10px;
+}
+
+.inp{
+    position: relative;
+    width: 85%;
+    border-radius: 14px;
+    border: 1px solid white;
+    background-color: rgba(31, 31, 31);
+    top: 110px;
+    margin-bottom: 13px;
+    left: 7px;
+    padding: 15px;
+    font-size: 16px;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+
+.but{
+    position: absolute;
+    background-color: rgb(220, 220, 220);
+    border-radius: 14px;
+    border: none;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 155px;
+    height: 50px;
+    font-size: 20px;
+    top: 295px;
+    color: black;
+}
+
+.txt_ptC{
+    position: relative;
+    top: 272px;
+    font-size: 16px;
+    text-align: center;
+    color: #d6d6d6;
+}
+
+
+.txt_ptLink{
+    position: absolute;
+    top: 263px;
+    font-size: 13px;
+    right: 16px;
+    color: #d6d6d6;
+}

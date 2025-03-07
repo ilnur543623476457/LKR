@@ -1,0 +1,30 @@
+.win_signIn_signUp{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: var(--gradient);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    bottom: 0;
+    transform: translateY(150%);
+    animation: ani 0.5s 5s forwards;
+}
+
+
+@keyframes ani {
+    0% {transform: translateY(150%);}
+    100% {transform: translateY(7%);}
+  }
+
+
+.txt_ptCO{
+    position: absolute;
+    font-size: 16px;
+    color: #d6d6d6;
+    bottom: 55px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 168px;
+}
